@@ -1,0 +1,37 @@
+.box {
+    color: white;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0px auto;
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    box-shadow: 2px 2px 20px 2px black;
+}
+
+.in {
+    padding: 7px 7px 7px 7px;
+
+    position: relative;
+    width: 100%;
+}
+
+input[type="email"] {
+    padding: 7px 7px;
+    width: 100%;
+}
+
+.button {
+    padding: 5px 15px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+@media(max-width: 500px) {
+    .box {
+        width: 100%;
+        padding: 0px;
+    }
+}
